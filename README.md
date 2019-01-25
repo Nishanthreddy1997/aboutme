@@ -21,10 +21,8 @@ It gives get to control and a few joint effort features, for example, bus tracki
 
 ## Recommended resources
 1. HTML: [https://en.wikipedia.org/wiki/HTML](https://en.wikipedia.org/wiki/HTML)is the standard markuplanguage for making web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript, it shapes a set of three of foundation advances for the World Wide Web.
-1. CSS :[]() CSS is utilized for portraying the introduction of a documentation written in a markup language like HTML.[1] CSS is a foundation innovation of the World Wide Web, close by HTML and JavaScript.
-1. angularJS
-
-
+1. CSS :[https://en.wikipedia.org/wiki/Cascading_Style_Sheets](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) CSS is utilized for portraying the introduction of a documentation written in a markup language like HTML.[1] CSS is a foundation innovation of the World Wide Web, close by HTML and JavaScript.
+1. angularJS:[https://en.wikipedia.org/wiki/AngularJS](https://en.wikipedia.org/wiki/AngularJS) is a JavaScript-based open-source front-end web application system primarily kept up by Google and by a network of people and organizations to address huge numbers of the difficulties experienced in creating single-page applications.
 ## contributers
 - NISHANTH REDDY DEVI REDDY, APPLIED COMPUTER SCIENCE
 
