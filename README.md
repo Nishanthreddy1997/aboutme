@@ -7,7 +7,7 @@
 ## about
 
 ### Use of this repo
-This reposotory is all about my work and recommendations.
+This reposotory is all about my work,experienceusing github and recommendations.
 
 
 
