@@ -1,0 +1,111 @@
+
+body{
+    
+    text-shadow: rgb(168, 20, 69);
+    background: rgb(69, 87, 87);
+    padding-top:2em;
+}
+
+
+h1 {    padding-bottom : .5em;
+        margin-right: 48%;
+        margin-left: 30%;
+        align-content: center;
+        border-style: double;
+}
+
+h2{
+    color:rgb(253, 254, 255); 
+}
+
+section{
+    margin:1rem;
+    padding:2rem;
+    background-color: rgb(47, 216, 174);
+    border-style: double;
+    border-radius: 0em;
+    border-color: firebrick;
+    
+
+}
+
+aside{
+    padding:2rem;
+    margin: 1rem;
+    border-style: double;
+    border-radius: 0em;
+    border-color: rgb(109, 28, 28);
+    background-color: rgb(146, 167, 187);
+
+}
+
+/*class*/
+.header{
+    color: rgb(30, 63, 83);
+    background-color: rgba(53, 56, 61, 0.979);
+}
+
+.video{
+    margin: 1rem;
+    margin-right: 2rem;
+}
+
+.icon{
+    width:1rem;
+    height: auto;
+}
+
+/* css from table generator*/
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin:auto;
+}
+
+.tg td {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: black;
+}
+
+.tg th {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: black;
+}
+
+.tg .tg-0lax {
+    text-align: left;
+    vertical-align: top
+}
+/* end of css from table generator*/
+
+#picture{
+    width: 20rem;
+    height: auto;
+    margin: 1rem;
+    align-content: center;
+}
+
+#small-picture{
+    width: 50rem;
+    height: auto;
+    margin: 1rem;
+    align-content: center;
+}
+
+
+#id{
+    color:rgb(228, 30, 30);
+}

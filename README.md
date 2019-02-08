@@ -2,7 +2,7 @@
 
 ## Repository links
 - [gitpage](https://nishanthreddy1997.github.io/aboutme)
-- [source](https://github.com/Nishanthreddy1997/aboutme/)
+- [source](https://github.com/Nishanthreddy1997/aboutme/blob/master/README.md)
 
 ## about
 

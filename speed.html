@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        
+    <!-- BootstrapCDN compiled version -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+
+<!-- BootstrapCDN compiled version -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+
+
+            <link href="style.css" rel="stylesheet">
+
+    </head>
+<title>MPH to KPH Speed Converter</title>
+<body> 
+        <nav class=" navbar-expand-md ">
+                <a class="navbar-brand" href="#">About Me</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--refered from bootstrap-->
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <ol class="nav-item active">
+                            <a class="nav-link" href="./index.html">Home
+                                <span class="sr-only">(current)</span></a>
+                        </ol>
+                        <ol class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact Information</a>
+                        </ol>
+                        <ul class="nav-item">
+                            <a class="nav-link" href="./speed.html">Speed Converter</a>
+                        </ul>
+                    </ul>
+                    <form class="form-inline mt-2 mt-md-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+<!-- refered from w3schools -->
+<h2>Speed Converter</h2>
+<p>Type a value in the MPH field to convert the value to KPH:</p>
+
+<p>
+  <label>MPH</label>
+  <input id="inputMPH" type="number" placeholder="MPH" oninput="speedConverter(this.value)" onchange="speedConverter(this.value)">
+</p>
+<p>KPH: <span id="outputKPH"></span></p>
+
+<script>
+function speedConverter(valNum) {
+  document.getElementById("outputKPH").innerHTML=valNum*1.609344;
+}
+</script>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+</body>
+</html>
