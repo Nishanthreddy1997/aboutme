@@ -53,9 +53,19 @@
 </p>
 <p>KPH: <span id="outputKPH"></span></p>
 
+<button onclick="storage()">storage</button>
+<div id="local"></div>
+
 <script>
 function speedConverter(valNum) {
-  document.getElementById("outputKPH").innerHTML=valNum*1.609344;
+  var r = valNum*1.609344;
+  document.getElementById("outputKPH").innerHTML= r;
+  localStorage.setItem("value",valNum);
+  localStorage.setItem("res",r);
+}
+function storage()
+{
+  document.getElementById('local').innerHTML = "Speed in Kmph "+localStorage.getItem("res");
 }
 </script>
 <!-- Optional JavaScript -->
