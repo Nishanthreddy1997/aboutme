@@ -4,10 +4,12 @@ body{
     text-shadow: rgb(168, 20, 69);
     background: rgb(69, 87, 87);
     padding-top:2em;
+    margin-top: 5rem;
 }
 
 
 h1 {    padding-bottom : .5em;
+    
         margin-right: 48%;
         margin-left: 30%;
         align-content: center;
@@ -19,12 +21,13 @@ h2{
 }
 
 section{
+    margin-top: 1rem;
     margin:1rem;
     padding:2rem;
     background-color: rgb(47, 216, 174);
     border-style: double;
     border-radius: 0em;
-    border-color: firebrick;
+    border-color: rgb(78, 71, 71);
     
 
 }
@@ -107,5 +110,6 @@ aside{
 
 
 #id{
-    color:rgb(228, 30, 30);
+    color:rgb(47, 228, 30);
+    border-style: none;
 }

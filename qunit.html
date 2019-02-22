@@ -5,17 +5,21 @@
     <!-- BootstrapCDN compiled version -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
-
+    <title>QUnit Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.9.1.css">
 <!-- BootstrapCDN compiled version -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
     <link href="style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/qunit/qunit-2.9.1.js"></script>
+
 
 
             <link href="style.css" rel="stylesheet">
 
     </head>
-<title>MPH to KPH Speed Converter</title>
+<title>qunit</title>
 <body> 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <a class="navbar-brand" href="#">Nishanth Reddy</a>
@@ -34,8 +38,8 @@
               <a class="nav-link" href="speed.html">speedConverter</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="qunit.html">qunit</a>
-            </li>
+                <a class="nav-link" href="./qunit.html">qunit</a>
+              </li>
           </ul>
           <form class="form-inline mt-2 mt-md-0">
             <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
@@ -43,30 +47,27 @@
           </form>
         </div>
       </nav>
-<!-- refered from w3schools -->
-<h2>Speed Converter</h2>
-<p>Type a value in the MPH field to convert the value to KPH:</p>
-
-<p>
-  <label>MPH</label>
-  <input id="inputMPH" type="number" placeholder="MPH" oninput="speedConverter(this.value)" onchange="speedConverter(this.value)">
-</p>
-<p>KPH: <span id="outputKPH"></span></p>
-
-<script>
-function speedConverter(valNum) {
-  document.getElementById("outputKPH").innerHTML=valNum*1.609344;
-}
-</script>
-<!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
 
 
-</body>
+
+      
+      <div id="qunit"></div>
+      <div id="qunit-fixture"></div>
+      <!-- Bootstrap core JavaScript
+         ================================================== -->
+         <!-- Placed at the end of the document so the pages load faster -->
+         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+         <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+         <script src="./js/popper.min.js"></script>
+         <script src="./js/bootstrap.min.js"></script>
+    <script src="./scripts/qunit.js"></script>
+
+
+
+
+
+      </body>
+    </head>
 </html>
+
+
